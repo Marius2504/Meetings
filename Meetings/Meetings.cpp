@@ -69,7 +69,7 @@ bool compareInterval(MeetingTask *i1, MeetingTask *i2)
 }
 string findMeeting()
 {
-    sort(meetings.begin(), meetings.end(),compareInterval); // O(N^2)
+    sort(meetings.begin(), meetings.end(),compareInterval); // O(NlogN)
     string end = meetings[0]->getEndTime();
     string res = "";
     if (initialTime < meetings[0]->getStartTime())
