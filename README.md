@@ -17,7 +17,7 @@ In order to find the best schedule time, you must insert data on each day of the
 Every day of the week has a corresponding .txt file.
 Input data must follow a format of "HH:MM - HH:MM".
 
-## :camera: Setup picture
-<p align="center">
+## :camera: Picture
+<p align="left">
  <img src="https://github.com/Marius2504/Meetings/blob/master/pozaMeet.png" width="600">
 </p>
